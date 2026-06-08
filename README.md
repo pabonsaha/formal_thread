@@ -1,75 +1,86 @@
-# Nuxt Minimal Starter
+# Formal Thread Frontend
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Formal Thread is a Nuxt.js frontend project for an online formal dress selling platform. The website is designed to showcase formal dresses, provide a smooth shopping experience, and help users browse products easily.
 
-## Setup
+## Features
 
-Make sure to install dependencies:
+* Modern Nuxt.js frontend
+* Responsive design for desktop and mobile
+* Formal dress product listing
+* Product details pages
+* Clean and user-friendly interface
+* Frontend structure ready for backend/API integration
+
+## Tech Stack
+
+* Nuxt.js
+* Vue.js
+* JavaScript / TypeScript
+* CSS / Tailwind CSS
+
+## Project Setup
+
+Install dependencies:
 
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+Run the development server:
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
-
-Build the application for production:
+The project will run at:
 
 ```bash
-# npm
+http://localhost:3000
+```
+
+## Build for Production
+
+Create a production build:
+
+```bash
 npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
+Preview the production build:
 
 ```bash
-# npm
 npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Project Structure
+
+```bash
+formal-thread-frontend/
+├── assets/
+├── components/
+├── layouts/
+├── pages/
+├── public/
+├── stores/
+├── nuxt.config.ts
+├── package.json
+└── README.md
+```
+
+## Purpose
+
+This frontend application is built for selling formal dresses online. It focuses on a stylish interface, easy navigation, and a professional shopping experience.
+
+## Future Improvements
+
+* Product search and filtering
+* Shopping cart
+* User authentication
+* Wishlist feature
+* Order checkout
+* Payment integration
+* Admin dashboard integration
+
+## Author
+
+Developed by Pabon Saha.
