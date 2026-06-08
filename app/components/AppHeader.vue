@@ -26,7 +26,7 @@ const navItems = [
 
       <div class="ml-auto flex items-center gap-4">
         <button class="header-icon" type="button" aria-label="Account">
-          <Icon name="lucide:user" class="h-[18px] w-[18px]" aria-hidden="true" />
+          <Icon name="lucide:user" class="h-4.5 w-4.5" aria-hidden="true" />
         </button>
 
         <button class="header-icon" type="button" aria-label="Search">
